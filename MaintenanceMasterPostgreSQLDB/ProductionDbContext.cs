@@ -1,4 +1,7 @@
-﻿namespace Application
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace Application
 {
     public class SystemDbContext : DbContext
     {
